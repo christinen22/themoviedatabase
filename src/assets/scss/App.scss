@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Julius+Sans+One&family=Open+Sans:wght@300&family=Rubik+Vinyl&family=Shadows+Into+Light&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+@import "bootstrap/scss/bootstrap";
+
+#root {
+
+    margin: 0 auto;
+} 
+
+
+body {
+    font-family: 'Poppins';
+    background-color:#0d253f;
+    color: #90cea1;
+
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    color: #90cea1;
+  }
+  
+  h1, .no-result {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  .navbar-nav {
+    margin-right: 2rem;
+  }
+
+  .no-result {
+    text-align: center;
+  }
+
+  .h2-rec {
+    font-size: 1rem;
+    padding-left: 2rem;
+    margin-top: 2rem;
+  }
+
+
+.dropdown-menu {
+  background-color: #0d253f;
+}
+
+.genre-list {
+  list-style: none;
+
+}
+
+.search-form {
+  max-width: 500px;
+  padding-left: 2rem;
+  margin-top: 1rem;
+}
+
+
+#App{
+  background:
+  linear-gradient(90deg, #0d253f 0%, #33333388 100%),
+  url('../image//header.bg.jpg');
+  background-size: contain;
+  padding: 2rem;
+}
+
+  /* Card */
+
+.card {
+  --bs-card-border-color: none;
+  background-color:#0d253f;
+  color: #90cea1;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+
+.cast-card {
+  margin: 1rem;
+  background-color:#1d1514;
+  color: #90cea1;
+}
+
+
+.card-title {
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+
+
+.card-img {
+
+  max-width: 50vw;
+  height: auto;
+}
+
+
+
+/* Single movie-page */
+
+.single-movie {
+  margin: 2rem;
+}
+
+.recent-movie-list {
+  max-height: 5rem;
+  width: auto;
+  margin: 0.5rem;
+}
+
+.movie-cast, .movie-rec, .recent {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+.movie-genre {
+  list-style: none;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+}
+
+.card-img {
+  max-width: 50vw;
+  height: auto;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 2rem;
+}
+
+
+.movie-info {
+  margin-bottom: 3rem;
+  display: flex;
+}
+
+.combined-credits-a {
+  color: #90cea1;
+  display: flex;
+  flex-direction: column;
+  font-size: 1em;
+  margin: 0.5em;
+  max-width: 5rem;
+
+}
+
+.genre-movie-li {
+  color: #90cea1
+}
+
+.actor-movie-list {
+  max-height: 10rem;
+  width: auto;
+  transition: transform 0.3s ease;
+}
+
+.actor-image {
+  max-width: 20vw;
+  align-self: center;
+  margin: 2rem;
+}
+
+.actor-movie-list:hover, .recent-movie-list:hover {
+  transform: scale(1.5);
+}
+
+.movie-cred {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.movie-list {
+  display: flex;
+  
+}
+
+
+.navbar-toggler {
+  border: none;
+}
+
+
+/* Sliding-btn timeWindow */
+
+
+.sliding-button {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  padding: 8px 16px;
+  background-color: #0d253f;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1rem;
+}
+
+.btn-success {
+  background-color: #90cea1;
+  color: #0d253f;
+}
+
+.btn.active {
+  background-color: #90cea1;
+  color: #0d253f;
+  font-weight: 600;
+}
+
+
+
+
+
+
